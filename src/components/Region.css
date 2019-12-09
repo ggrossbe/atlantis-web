@@ -1,0 +1,39 @@
+.region-swamp {
+  background-color: olive;
+}
+
+.region-tundra {
+  background-color: darkkhaki;
+}
+
+.region-ocean {
+  background-color: dodgerblue;
+}
+
+.region-forest {
+  background-color: forestgreen;
+}
+
+.region-jungle {
+  background-color: darkgreen;
+}
+
+.region-plain {
+  background-color: lawngreen;
+}
+
+.region-mountain {
+  background-color: dimgray;
+}
+
+.region-desert {
+  background-color: sandybrown;
+}
+
+.region-underforest {
+  background-color: darkolivegreen;
+}
+
+.region-cavern {
+  background-color: darkslategray;
+}
