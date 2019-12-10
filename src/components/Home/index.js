@@ -7,7 +7,8 @@ import { connect } from 'react-redux';
 const Promise = global.Promise;
 
 const mapStateToProps = state => ({
-  appName: state.common.appName
+  appName: state.common.appName,
+  currentUser: state.common.currentUser
 });
 
 const mapDispatchToProps = dispatch => ({
@@ -17,7 +18,7 @@ const mapDispatchToProps = dispatch => ({
 
 class Home extends React.Component {
   componentWillMount() {
-    this.props.onLoad(agent.Report.all());
+    if (this.props.currentUser) { this.props.onLoad(agent.Report.all()); }
   }
 
   render() {

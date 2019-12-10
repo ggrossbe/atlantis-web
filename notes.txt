@@ -1,0 +1,7 @@
+Steps to add a component:
+1. Create the React.Component for the page (components/Settings.js)
+2. Create the reducer with update actions (e.g. ASYNC_START, SETTINGS_SAVED; reducer/settings.js)
+3. Update the store: add the reducer (store.js)
+4. Update the common reducer with the actions (reducer/common.js)
+5. Update the agent with the CRUD requests (agent.js)
+6. Update the routing (index.js)

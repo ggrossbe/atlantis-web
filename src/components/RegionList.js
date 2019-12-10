@@ -23,6 +23,7 @@ const RegionList = props => {
       props.regions.map(region => {
         return (
           <RegionPreview region={region}
+            key={region._id}
             title={region.type + "("
               + (region.plane ? region.plane + ", " : "")
               + region.x + ", " + region.y + ") in " + region.area
